@@ -1,6 +1,6 @@
 {
   "name": "@pierretrolle/words-counter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./src/words-counter.js",
   "license": "MIT",
   "author": "Pierre Trollé <trolle.pierre@gmail.com>",

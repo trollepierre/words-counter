@@ -2,6 +2,32 @@
 
 > A library to count words' occurrence   
 
+## Install
+``` sh
+yarn add @pierretrolle/words-counter
+```
+
+## Usage
+
+```js
+var wordsCounter = require('@pierretrolle/words-counter');
+
+wordsCounter('This is a text with some text double occurrences.');
+```
+
+Results:
+```
+  {
+    "double": 1,
+    "is": 1,
+    "occurrences": 1,
+    "some": 1,
+    "text": 2,
+    "this": 1,
+    "with": 1
+  }
+```
+
 ## Init environment for development
 
 ``` bash
@@ -18,7 +44,6 @@ yarn
 
 ## Lint and Test
 ```
-
 # start linter
 yarn lint
 
