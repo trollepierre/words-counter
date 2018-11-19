@@ -1,8 +1,8 @@
 function wordsCounter(text) {
   const minLength = 2;
   const splitText = text
-    .replace(/[.,/#!$%^&*;:{}=\-\\_`~()"']/g, '')
-    .replace(/\s{2,}/g, ' ')
+    .replace(/[.,/#!$%^&*;:{}=\-\\_`~()"']/g, ' ')
+    .replace(/\s+/g, ' ')
     .split(' ');
 
   return splitText.reduce((result, word) => {
