@@ -1,13 +1,14 @@
 {
-  "name": "words-counter",
+  "name": "@pierretrolle/words-counter",
   "version": "1.0.0",
   "main": "./src/words-counter.js",
   "license": "MIT",
   "author": "Pierre Trollé <trolle.pierre@gmail.com>",
+  "description": "A words' occurrence counter",
   "scripts": {
     "lint": "eslint --ext .js src tests",
     "lint:fix": "yarn lint --fix",
-    "test": "./node_modules/.bin/jest",
+    "test": "jest",
     "test:watch": "yarn test --watch"
   },
   "devDependencies": {
@@ -16,5 +17,18 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jest": "^22.0.0",
     "jest": "^23.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trollepierre/words-counter.git"
+  },
+  "keywords": [
+    "words",
+    "occurrence",
+    "counter"
+  ],
+  "bugs": {
+    "url": "https://github.com/trollepierre/words-counter/issues"
+  },
+  "homepage": "https://github.com/trollepierre/words-counter#readme"
 }
